@@ -3920,3 +3920,8 @@
 			}
 
 		}
+
+#ctc-image{
+	object-position: 0 -20%;
+	/* object-fit: cover; */
+}
