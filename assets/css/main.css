@@ -2536,7 +2536,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: devicon;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2550,16 +2550,16 @@
 			width: 2.5em;
 			height: 2.5em;
 			display: block;
-			background: #ffffff;
+			/* background: #ffffff; */
 			border-radius: 100%;
-			color: #312450;
+			color: #ffffff;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
 		}
 
 			.icon.major:before {
-				font-size: 1.25em;
+				font-size: 2.25em;
 			}
 
 				.wrapper.style1 .icon.major:before {
@@ -2579,7 +2579,7 @@
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					color: #ffffff;
 				}
 
 				.wrapper.style3-alt .icon.major:before {
@@ -3928,4 +3928,17 @@
 #ctc-image{
 	object-position: 0 -20%;
 	/* object-fit: cover; */
+}
+
+#memail{
+	position: relative;
+}
+
+.devicon-git-plain {
+  max-width: 2em;
+}
+
+/* if you want to change the original color */
+.devicon-git-plain path {
+  fill: #4691f6;
 }
